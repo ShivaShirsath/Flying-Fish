@@ -6,3 +6,4 @@
       new GameLauncher("Flying Fish");
     }
   }
+'''
