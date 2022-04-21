@@ -1,2 +1,2 @@
 # Flying-Fish
-[![Build](../actions/workflows/main.yml/badge.svg)](../actions/workflows/main.yml)
+[![Build](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
