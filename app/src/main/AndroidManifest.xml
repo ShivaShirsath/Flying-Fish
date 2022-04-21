@@ -8,19 +8,27 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/splash_icon"
         android:supportsRtl="true"
-	android:exported="true"
+	
         android:theme="@style/Theme.EggsEaterFish">
         <activity
             android:name=".SplashScreen"
-            android:label="@string/app_name" >
+            android:label="@string/app_name" 
+		  android:exported="true"
+		  >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GameOver"/>
-		<activity android:name=".MainActivity"/>
+        <activity 
+		  android:name=".GameOver"
+		  android:exported="true"
+		  />
+		<activity 
+			  android:name=".MainActivity"
+			  android:exported="true"
+			  />
     </application>
 
 </manifest>
