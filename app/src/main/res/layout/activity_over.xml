@@ -7,12 +7,12 @@
 	android:orientation="vertical">
 
 	<TextView
-		android:text="GameOver"
+		android:text="Game Over"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:textColor="#FF0F00"
 		android:textStyle="bold"
-		android:textSize="100sp"/>
+		android:textSize="75sp"/>
 
 	<TextView
 		android:layout_width="wrap_content"
