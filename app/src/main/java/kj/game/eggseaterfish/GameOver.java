@@ -13,7 +13,7 @@ public class GameOver extends AppCompatActivity{
         setContentView(R.layout.activity_over);
 		try{
 			Intent intent = getIntent();
-		((TextView)findViewById(R.id.score)).setText("Highest Score is "+intent.getStringExtra("s").toString());
+		((TextView)findViewById(R.id.score)).setText("Score is "+intent.getStringExtra("s").toString());
 		}catch(Exception e){
 			Toast.makeText(this,e.getMessage(),Toast.LENGTH_SHORT).show();
 		}
